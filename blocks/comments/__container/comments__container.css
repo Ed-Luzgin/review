@@ -1,0 +1,15 @@
+.comments__container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 19px;
+	margin-bottom: 102px;
+}
+
+@media screen and (max-width: 768px) { 
+	.comments__container {
+		grid-template-columns: 1fr;
+		grid-gap: 47px;
+		text-align: center;
+		max-width: 380px;
+	}
+}

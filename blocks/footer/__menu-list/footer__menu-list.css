@@ -1,0 +1,25 @@
+.footer__menu-list {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+@media screen and (max-width: 768px) { 
+	.footer__menu-list {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;	
+		-ms-align-items: flex-start;
+		align-items: flex-start;
+	}
+	
+}

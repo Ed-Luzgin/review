@@ -1,0 +1,6 @@
+.header__item {
+	margin-bottom: 8px;
+}
+.header__item:not(:last-child) {
+	margin-right: 18px;
+}

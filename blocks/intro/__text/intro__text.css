@@ -1,0 +1,6 @@
+@import url(_weight/intro__text_weight_bold.css);
+
+.intro__text {
+	font-size: 13px;
+	line-height: 20px;
+}

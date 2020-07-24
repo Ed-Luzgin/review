@@ -1,0 +1,16 @@
+.video__icon-play {
+	width: 41px;
+	height: 41px;
+	background-image: url(../../../images/play.svg);
+	z-index: 10;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 94px;
+}
+
+
+@media screen and (max-width: 768px) { 
+	.video__icon-play {
+		margin-bottom: 36px;
+	}
+}

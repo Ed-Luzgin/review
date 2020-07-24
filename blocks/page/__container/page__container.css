@@ -1,0 +1,6 @@
+@import url(_xl/page__container_xl.css);
+@import url(_l/page__container_l.css);
+
+.page__container {
+	margin: 0 auto;
+}
